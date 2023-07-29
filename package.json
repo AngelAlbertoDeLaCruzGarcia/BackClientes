@@ -1,0 +1,20 @@
+{
+  "name": "backcustomers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Angel Alberto de la Cruz Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.2",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.32.1"
+  }
+}
